@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center;">Mike's Cereal Shack</h1>
+    </header>
+
+    <nav>
+      <table width="25%">
+        <tr>
+          <td><a href="index.html">Home</a></td>
+          <td><a href="menu.html">Menu</a></td>
+          <td><a href="contact.html">Contact Us</a></td>
+        </tr>
+      </table>
+      <hr />
+    </nav>
+
+    <section>
+      <article style="margin-left: auto; margin-right: auto;">
+        <br />
+        <form action="index.html" method="post">
+          <table width="100%">
+            <tr>
+              <td width="45%" style="text-align: right;"><label for="fullName">Name: </label></td>
+              <td><input type="text" id="fullName" name="fullName"></td>
+            </tr>
+            <tr>
+              <td width="45%" style="text-align: right;"><label for="email">Email: </label></td>
+              <td><input type="text" id="email" name="email"></td>
+            </tr>
+            <tr>
+              <td width="45%" style="text-align: right;"><label for="phone">Name: </label></td>
+              <td><input type="text" id="phone" name="phone"></td>
+            </tr>
+            <tr>
+              <td width="45%" style="text-align: right;"><label for="reason">Reason for inquiry: </label></td>
+              <td>
+                <select id="reason" name="reason">
+                  <option value="default" selected>Catering</option>
+                  <option value="private">Private Party</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="other">Other</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td width="45%" style="text-align: right; vertical-align: top;"><label for="info">Additional Information: </label></td>
+              <td>
+                <textarea name="info" rows="8" ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td width="45%" style="text-align: right;"><label for="repeatVisit">Have you been to the restaurant: </label></td>
+              <td>
+                <input type="radio" id="choice1" name="returnVisit" value="No" checked>
+                <label for="choice1">No</label>
+                <input type="radio" id="choice2" name="returnVisit" value="Yes">
+                <label for="choice2">Yes</label>
+              </td>
+            </tr>
+            <tr>
+              <td width="45%" style="text-align: right;">Best days to contact you:</td>
+              <td>
+                <input type="checkbox" name="days" id="dayM" value="M">
+                <label for="dayM">M</label>
+                <input type="checkbox" name="days" id="dayT" value="T">
+                <label for="dayT">T</label>
+                <input type="checkbox" name="days" id="dayW" value="W">
+                <label for="dayW">W</label>
+                <input type="checkbox" name="days" id="dayTh" value="Th">
+                <label for="dayTh">Th</label>
+                <input type="checkbox" name="days" id="dayF" value="F">
+                <label for="dayM">F</label>
+              </td>
+            </tr>
+            <tr>
+              <td width="45%" style="text-align: right;"></td>
+              <td>
+                <input type="submit" name="submit" value="Submit">
+              </td>
+            </tr>
+          </table>
+        </form>
+        <br />
+      </article>
+    </section>
+
+    <footer style="text-align: center;">
+      <hr />
+      <p>123 Broadway St., New York, New York, 12345</p>
+      <p>+1 (646)123-1234</p>
+    </footer>
+  </body>
+</html>
