@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
     <header>
@@ -10,15 +11,14 @@
     </header>
 
     <nav>
-      <hr/>
-      <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-      <p><a href="index.html">Home</a></p>
-      <hr/>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="testimonials.html">Testimonials</a>
     </nav>
 
     <article>
-      <h2>Information Request</h2>
       <form action="submit.html" method="POST">
+        <h2>Information Request</h2>
         <label for="first-name">First name:</label><br />
         <input type="text" id="first-name" name="first-name" /><br />
 
@@ -39,30 +39,31 @@
         <fieldset>
           <legend>I'm interested in (check all that apply):</legend>
           <input type="checkbox" id="frontEnd" name="interest" value="frontEnd">
-          <label for="frontEnd">Front-end web development</label><br />
+          <label for="frontEnd" class="option">Front-end web development</label><br />
           <input type="checkbox" id="backEnd" name="interest" value="backEnd">
-          <label for="backEnd">Back-end web development</label><br />
+          <label for="backEnd" class="option">Back-end web development</label><br />
           <input type="checkbox" id="database" name="interest" value="database">
-          <label for="database">Database design</label><br />
+          <label for="database" class="option">Database design</label><br />
         </fieldset>
 
         <fieldset>
           <legend>I have filled in the client questionnaire form:</legend>
           <input type="radio" id="choice1" name="questionnaire" value="yes">
-          <label for="choice1">Yes</label>
+          <label for="choice1" class="option">Yes</label>
           <input type="radio" id="choice2" name="questionnaire" value="no">
-          <label for="choice2">No</label>
+          <label for="choice2" class="option">No</label>
         </fieldset>
 
         <label for="info">Additional information:</label><br />
-        <textarea name="info" id="info"></textarea><br />
+        <textarea name="info" rows="8" id="info"></textarea><br />
 
-        <input type="submit" name="submit" value="Submit" />
+        <input id="submit" type="submit" name="submit" value="Submit" />
         </form>
-        <hr />
     </article>
 
     <footer>
+      <p>&copy; 2019 Greg Barnes. All rights reserved.</p>
+      <a href="#main">Top of page</a>
     </footer>
   </body>
 </html>

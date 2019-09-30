@@ -7,11 +7,8 @@ Revision:     1
 <html lang="en">
   <head>
     <title>Greg Barnes' Portfolio</title>
-    <link rel="stylesheet" href="styles/teststyles.css">
+    <link rel="stylesheet" href="styles/main.css">
     <style>
-      body {
-        background-color: indianred;
-      }
     </style>
   </head>
   <body>
@@ -21,12 +18,9 @@ Revision:     1
       </header>
 
       <nav>
-        <hr/>
-        <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-        <p><a href="projects.html">Projects</a></p>
-        <p><a href="contact.html">Contact Me</a></p>
-        <p><a href="testimonials.html">Testimonials</a></p>
-        <hr/>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="testimonials.html">Testimonials</a>
       </nav>
 
       <section>
@@ -40,33 +34,37 @@ Revision:     1
         <article id="past-experience">
           <h2><em>Past Experiences</em></h2>
           <img src="images/lyngsoe-systems.png" alt="Lyngsoe Systems" />
-          <table border="1" width="50%">
+          <table>
             <caption>Employment history</caption>
-            <tr bgcolor="limegreen">
-              <th>Years of Employment</th>
-              <th>Title</th>
-              <th>Company</th>
-            </tr>
-            <tr>
-              <td>2013-present</td>
-              <td>Project Engineer</td>
-              <td><a href="https://lyngsoesystems.com">Lyngsoe Systems</a></td>
-            </tr>
-            <tr>
-              <td>2012-2013</td>
-              <td>Lab Technician (intern)</td>
-              <td>Clean Green Chesapeake</td>
-            </tr>
-            <tr>
-              <td>2011-2012</td>
-              <td>Developer (intern)</td>
-              <td>Fearless Solutions</td>
-            </tr>
-            <tr>
-              <td>2008-2013</td>
-              <td>Student (B.S. Mechanical Engineering)</td>
-              <td>University of Maryland, Baltimore County</td>
-            </tr>
+            <thead>
+              <tr>
+                <th>Years of Employment</th>
+                <th>Title</th>
+                <th>Company</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2013-present</td>
+                <td>Project Engineer</td>
+                <td><a href="https://lyngsoesystems.com">Lyngsoe Systems</a></td>
+              </tr>
+              <tr>
+                <td>2012-2013</td>
+                <td>Lab Technician (intern)</td>
+                <td>Clean Green Chesapeake</td>
+              </tr>
+              <tr>
+                <td>2011-2012</td>
+                <td>Developer (intern)</td>
+                <td>Fearless Solutions</td>
+              </tr>
+              <tr>
+                <td>2008-2013</td>
+                <td>Student (B.S. Mechanical Engineering)</td>
+                <td>University of Maryland, Baltimore County</td>
+              </tr>
+            </tbody>
           </table>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida nec tellus vel mollis. Curabitur luctus erat nunc, sed laoreet eros interdum placerat. Donec ut dapibus erat. Phasellus a mi id enim mattis porta. Nam quis libero vulputate, pretium lorem in, consectetur urna. Quisque non ex ante. Aenean posuere erat a libero consequat, a fermentum velit faucibus.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit non diam rutrum rutrum. Vestibulum non pellentesque mi. Fusce sodales, justo eget aliquam iaculis, eros nulla auctor leo, at convallis orci nulla ut lectus. Morbi egestas turpis at risus iaculis vulputate. Maecenas a arcu sit amet ligula venenatis rhoncus quis vel diam. Duis pharetra, ante sed posuere eleifend, diam ipsum hendrerit enim, id facilisis tellus ante non quam. Donec et bibendum quam.</p>
@@ -103,7 +101,6 @@ Revision:     1
       </section>
 
       <footer>
-        <hr>
         <p>&copy; 2019 Greg Barnes. All rights reserved.</p>
         <a href="#main">Top of page</a>
       </footer>
