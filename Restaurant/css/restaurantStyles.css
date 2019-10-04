@@ -1,3 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
+.menu-row {
+  padding-top: 25px;
+}
+
+.menu-item p {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.menu-item img {
+ padding: 60px;
+}
+
+.container {
+  border: 1px solid black;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+table {
+  margin-top: 25px;
+}
+
+thead th{
+  background-color: rgb(0,123,255,0.5);
+}
+
+section {
+  background-color: rgba(255, 0, 0, 0.1);
+  padding-bottom: 25px;
+}
+
+header {
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: tomato;
+  /* text-decoration: underline; */
+  text-decoration-color: white;
+  text-transform: uppercase;
+}
+
 header h1 {
+  color: white;
+  font-size: 4em;
+  font-family: 'Monoton', cursive;
+}
+
+nav {
+  background-color: rgba(0, 0, 255, 0.1);
   text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 2px solid #007bff;
+  border-bottom: 2px solid #007bff;
+  margin-bottom: 0px;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav a:visited {
+  color: violet;
+}
+
+footer {
+  text-align: center;
+  background-color: tomato;
+  margin: 0;
+  padding-top: 0;
+}
+
+footer p {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 }

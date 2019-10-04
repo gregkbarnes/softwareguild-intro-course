@@ -4,71 +4,103 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/restaurantStyles.css">
     <title>Home</title>
+    <style>
+      table {
+        padding-left: 75px;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <h1 style="text-align: center;">Mike's Cereal Shack</h1>
-      <hr />
-    </header>
+    <div class="container">
+      <header>
+        <div class="text-center">
+          <h1>Mike's Cereal Shack</h1>
+        </div>
+      </header>
+      <nav>
+        <a class="btn btn-lg btn-outline-primary" href="index.html">Home</a>
+        <a class="btn btn-lg btn-outline-secondary">Menu</a>
+        <a class="btn btn-lg btn-outline-primary" href="contact.html">Contact Us</a>
+      </nav>
+      <section>
+        <div class="row menu-row">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center menu-item">
+            <h3>Lucky Charms</h3>
+            <img class="img-fluid" src="images/Bowl-of-Lucky-Charms1.jpg" alt="">
+            <p>Maybe the favorite of kids everywhere, Lucky Charms is good because even the non-marshmallow bites still taste good.</p>
+            <em>$4.00</em>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center menu-item">
+            <h3>Count Chocula</h3>
+            <img class="img-fluid" src="images/Count-Chocula-Bowl.jpg" alt="">
+            <p>This might sound shocking for a cereal that is made with chocolate and marshmallows, but it’s not terribly unhealthy for you. But even if you gained five pounds for every bowl you ate it would be worth it.</p>
+            <em>$4.00</em>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center menu-item">
+            <h3>Honey Bunches of Oats</h3>
+            <img class="img-fluid" src="images/Greek_Yogurt_Honey_Bunches_Oats.jpg" alt="">
+            <p>An amazing cereal that isn’t terrible for you to eat. The honey-flavored oat clusters are some of the best bites of food you’ll find in any meal. Also gets better the more you eat it.</p>
+            <em>$4.00</em>
+          </div>
+        </div>
+        <div class="row menu-row">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center menu-item">
+            <h3>Cinnamon Toast Crunch</h3>
+            <img class="img-fluid" src="images/Cinnamon-Toast-Crunch.jpg" alt="">
+            <p>Long live the cinnamon-flavored King, the most perfect cereal ever devised by men or gods. That’s just science. And you can’t argue with science.</p>
+            <em>$4.00</em>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center menu-item">
+            <h3>Cocoa Pebbles</h3>
+            <img class="img-fluid" src="images/cocoa-pebbles.jpg" alt="">
+            <p>Because they are so small, Cocoa Pebbles can really fill your spoon, giving you a much more complete, satisfying bite than most cereals. It’s also perfectly sweetened, makes it okay to eat chocolate for breakfast, and results in the absolute best leftover milk.</p>
+            <em>$4.00</em>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center menu-item">
+            <h3>Frosted Flakes</h3>
+            <img class="img-fluid" src="images/frosted-flakes-web.jpg" alt="">
+            <p>There should be a statue at the United Nations to the man or woman who looked at unsweetened breakfast flakes and said, “Let’s just cover them entirely in sugar.”</p>
+            <em>$4.00</em>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-1 col-md-1 col-sm-1">
+          </div>
+          <div class="col-lg-10 col-md-10 col-sm-10">
+            <table class="table table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th colspan="2" scope="col">Beverages</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Chocolate Milk</td>
+                  <td>$1.99</td>
+                </tr>
+                <tr>
+                  <td>Orange Juice</td>
+                  <td>$1.99</td>
+                </tr>
+                <tr>
+                  <td>Coffee</td>
+                  <td>$2.25</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-1">
+          </div>
+        </div>
 
-    <nav>
-      <table width="25%">
-        <tr>
-          <td><a href="index.html">Home</a></td>
-          <td><a href="menu.html">Menu</a></td>
-          <td><a href="contact.html">Contact Us</a></td>
-        </tr>
-      </table>
-      <hr />
-    </nav>
-
-    <section>
-      <article style="width: 95%; margin-left: auto; margin-right: auto;">
-        <br />
-        <br />
-        <table style="width: 100%; text-align: center;">
-          <tr>
-            <th>Cinnamon Toast Crunch</th>
-            <th>Cocoa Pebbles</th>
-            <th>Frosted Flakes</th>
-          </tr>
-          <tr>
-            <td>Long live the cinnamon-flavored King, the most perfect cereal ever devised by men or gods. That’s just science. And you can’t argue with science.</td>
-            <td>Because they are so small, Cocoa Pebbles can really fill your spoon, giving you a much more complete, satisfying bite than most cereals. It’s also perfectly sweetened, makes it okay to eat chocolate for breakfast, and results in the absolute best leftover milk.</td>
-            <td>There should be a statue at the United Nations to the man or woman who looked at unsweetened breakfast flakes and said, “Let’s just cover them entirely in sugar.”</td>
-          </tr>
-          <tr>
-            <td>$4.00 <br /><br /></td>
-            <td>$4.00 <br /><br /></td>
-            <td>$4.00 <br /><br /></td>
-          </tr>
-          <tr>
-            <th>Lucky Charms</th>
-            <th>Count Chocula</th>
-            <th>Honey Bunches of Oats Honey Roasted</th>
-          </tr>
-          <tr>
-            <td>Maybe the favorite of kids everywhere, Lucky Charms is good because even the non-marshmallow bites still taste good.</td>
-            <td>This might sound shocking for a cereal that is made with chocolate and marshmallows, but it’s not terribly unhealthy for you. But even if you gained five pounds for every bowl you ate it would be worth it.</td>
-            <td>An amazing cereal that isn’t terrible for you to eat. The honey-flavored oat clusters are some of the best bites of food you’ll find in any meal. Also gets better the more you eat it.</td>
-          </tr>
-          <tr>
-            <td>$4.00 <br /><br /></td>
-            <td>$4.00 <br /><br /></td>
-            <td>$4.00 <br /><br /></td>
-          </tr>
-        </table>
-        <br />
-      </article>
-
-    </section>
-
-    <footer style="text-align: center;">
-      <hr />
-      <p>123 Broadway St., New York, New York, 12345</p>
-      <p>+1 (646)123-1234</p>
-    </footer>
+      </section>
+      <footer>
+        <p>123 Broadway St., New York, New York, 12345</p>
+        <p>+1 (646)123-1234</p>
+      </footer>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
